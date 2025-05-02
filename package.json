@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:strategy": "npm run start --workspace design-patterns/strategy",
     "start:simple-factory": "npm run start --workspace design-patterns/simple-factory",
-    "start:adapter": "npm run start --workspace design-patterns/adapter"
+    "start:adapter": "npm run start --workspace design-patterns/adapter",
+    "start:state": "npm run start --workspace design-patterns/state"
   },
   "keywords": [
     "design-patterns"
@@ -17,7 +18,8 @@
   "workspaces": [
     "design-patterns/strategy",
     "design-patterns/simple-factory",
-    "design-patterns/adapter"
+    "design-patterns/adapter",
+    "design-patterns/state"
   ],
   "devDependencies": {
     "@types/express": "^5.0.1",

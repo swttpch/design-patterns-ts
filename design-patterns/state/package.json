@@ -1,5 +1,5 @@
 {
-  "name": "@design-pattern/adapter",
+  "name": "@design-pattern/state",
   "version": "1.0.0",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
