@@ -4,14 +4,18 @@
   "description": "Applying design patterns in JS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:strategy": "npm run build --workspace design-patterns/strategy",
+    "start:strategy": "npm run start --workspace design-patterns/strategy"
   },
   "keywords": [
     "design-patterns"
   ],
   "author": "swttpch",
   "license": "MIT",
-  "workspaces": [],
+  "workspaces": [
+    "design-patterns/strategy"
+  ],
   "devDependencies": {
     "@types/express": "^5.0.1",
     "prettier": "3.5.3",
