@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:strategy": "npm run build --workspace design-patterns/strategy",
-    "start:strategy": "npm run start --workspace design-patterns/strategy"
+    "start:strategy": "npm run start --workspace design-patterns/strategy",
+    "start:simple-factory": "npm run start --workspace design-patterns/simple-factory"
   },
   "keywords": [
     "design-patterns"
@@ -14,7 +14,8 @@
   "author": "swttpch",
   "license": "MIT",
   "workspaces": [
-    "design-patterns/strategy"
+    "design-patterns/strategy",
+    "design-patterns/simple-factory"
   ],
   "devDependencies": {
     "@types/express": "^5.0.1",
