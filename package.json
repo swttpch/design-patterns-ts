@@ -1,0 +1,23 @@
+{
+  "name": "design-patterns",
+  "version": "0.0.0",
+  "description": "Applying design patterns in JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "design-patterns"
+  ],
+  "author": "swttpch",
+  "license": "MIT",
+  "workspaces": [],
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "prettier": "3.5.3",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
